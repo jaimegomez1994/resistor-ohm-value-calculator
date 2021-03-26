@@ -1,0 +1,15 @@
+export default [
+    { key: 1, color: 'black', value: 1 },
+    { key: 2, color: 'brown', value: 10 },
+    { key: 3, color: 'red', value: 100 },
+    { key: 4, color: 'orange', value: 1000 },
+    { key: 5, color: 'yellow', value: 10000 },
+    { key: 6, color: 'green', value: 100000 },
+    { key: 7, color: 'blue', value: 10000000 },
+    { key: 8, color: 'violet', value: 100000000 },
+    { key: 9, color: 'grey', value: 1000000000 },
+    { key: 10, color: 'white', value: 1000000000 },
+    { key: 11, color: 'pink', value: 1000000000 },
+    { key: 12, color: 'silver', value: 1000000000 },
+    { key: 13, color: 'gold', value: 1000000000 },
+];

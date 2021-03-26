@@ -1,0 +1,39 @@
+$regular-margin: 40px;
+$border: 1px solid rgb(221, 221, 221);
+$border-radius: 12px;
+$box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.33);
+
+@media (max-width: 400px) {
+  @import "mobile-device";
+}
+@media (min-width: 400px) and (max-width:800px){
+  @import "tablet-device";
+}
+
+@media (min-width: 800px) {
+  @import "desktop-device";
+}
+
+.app {
+  margin-top: $regular-margin;
+  display: flex;
+  justify-content: center;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+.result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    padding:$regular-margin;
+    border: $border;
+    border-radius:$border-radius;
+    box-shadow: $box-shadow;
+}
+h1 {
+  text-align: center;
+}
