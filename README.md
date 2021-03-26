@@ -1,7 +1,7 @@
 # Resistor Ohm Value Calculator 
 
 This project is for exercise purposes.
-For more details about how this works please read this](https://en.wikipedia.org/wiki/Electronic_color_code).
+For more details about how this works please read [this](https://en.wikipedia.org/wiki/Electronic_color_code).
 
 ## How to run it
 
